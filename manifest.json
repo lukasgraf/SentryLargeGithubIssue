@@ -1,0 +1,13 @@
+{
+    "name": "Sentry Large GitHub Issue",
+    "content_scripts": [
+        {
+          "matches": ["*://*/sentry/*"],
+          "css": ["sentry_large_github_issue.css"]
+        }
+    ],
+    "version": "1.0.0",
+    "description": "User styles to make the GitHub Issue link in Sentry very large",
+    "manifest_version": 2,
+    "author": "Lukas Graf"
+}

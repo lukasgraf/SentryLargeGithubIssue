@@ -1,0 +1,16 @@
+/* Make GitHub Issue link very large and visible */
+
+.app .group-detail .event-annotation {
+    float: right;
+    margin-top: -25px !important;
+}
+
+.app .group-detail .event-annotation a {
+    font-size: 4em;
+}
+
+.app .group-detail .event-annotation a:before {
+    font-family: sentry-simple;
+    content: '\e621';
+    padding-right: 0.25em;
+}
